@@ -1,0 +1,8 @@
+module Lib
+{
+interface Library
+{
+string get_book(in string id);
+void addBook( in string id, in string date, in string book);
+};
+};
